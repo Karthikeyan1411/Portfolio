@@ -1,0 +1,104 @@
+body {    /*use one space before opening bracket*/
+    background-color: powderblue;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;  /*this line shows single line border table, otherwise table look like double border*/
+    border-radius: 10px; /*borders get rounded corner*/
+    border-spacing: 30px;
+}
+th, td {
+    background-color: #96D4D4;
+    border-style: dotted;
+    border-color: #96D4D4;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+th {
+    text-align: center;
+}
+tr {
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {   /*this is for hover when mouse place the table row*/
+    background-color: #D6EEEE;
+}
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+tr:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+h1 { 
+    color: blue;
+    font-size: 10vw;
+}
+p {
+    color: red;
+    padding: 30px;  /*padding (space) - between the text and border*/
+    margin: 50px; /*margin (space) - outside the border*/
+}
+
+/*Normal Link Styles*/
+
+/* a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+} */
+
+/*Link Buttons*/
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+div {
+    width: 300px;
+    margin: auto;
+}
+
+#myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
